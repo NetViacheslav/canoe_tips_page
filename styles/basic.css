@@ -5,4 +5,50 @@
 body {
   margin: 0;
   font-family: geologica-regular;
+  background-color: var(--bg-light-blue);
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.container {
+  max-width: 1430px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 120px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.btn {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  width: 160px;
+  height: 45px;
+  background-color: var(--btn-bg);
+  color: var(--btn-font-color);
+  font-family: geologica-regular;
+  font-size: 24px;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  outline: 2px solid var(--btn-outline);
+}
+
+.btn-signin {
+  background-color: transparent;
+  color: var(--font-color-black);
 }
