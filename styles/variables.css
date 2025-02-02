@@ -5,11 +5,12 @@
   --font-color-black: #040404;
   --font-color-light-black: #535c5f;
   --font-color-white: #ffffff;
+  --font-color-dark-white: #e2e0e0;
   --font-color-mint: #00a7a7;
 
   --btn-font-color: #272727;
   --btn-bg: #00c7be;
-  --btn-outline: #00504c;
+  --btn-outline: #272727;
 }
 
 /* media breakpoints: 992px, 768px, 576px, 480px */
